@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StudentPerformanceSystem university="КНУ імені Тараса Шевченка">
+  <!-- Вузол 1: 8 атрибутів (включно з Specialty, StudyForm, Scholarship) -->
+  <Student Id="ST-101"
+           FullName="Коваленко Олександр Петрович"
+           Faculty="ФКНК"
+           Department="Кафедра теорії та технології програмування"
+           Course="2"
+           Group="К-24"
+           Specialty="122 Комп'ютерні науки"
+           StudyForm="Денна"
+           Scholarship="Академічна">
+    <Discipline Name="Об'єктно-орієнтоване програмування" Semester="3" Credits="4" Grade="95" NationalGrade="Відмінно" ExamType="Іспит" Lecturer="Омельчук Л.Л." />
+    <Discipline Name="Алгоритми та структури даних" Semester="3" Credits="5" Grade="91" NationalGrade="Відмінно" ExamType="Іспит" Lecturer="Свистунов А.О." />
+    <Discipline Name="Дискретна математика" Semester="3" Credits="4" Grade="88" NationalGrade="Добре" ExamType="Залік" Lecturer="Шкільняк С.С." />
+  </Student>
+
+  <!-- Вузол 2: 6 атрибутів (мінімальний базовий набір атрибутів) -->
+  <Student Id="ST-102"
+           FullName="Шевченко Марія Іванівна"
+           Faculty="ФКНК"
+           Department="Кафедра програмних систем і технологій"
+           Course="2"
+           Group="К-25">
+    <Discipline Name="Об'єктно-орієнтоване програмування" Semester="3" Credits="4" Grade="98" NationalGrade="Відмінно" ExamType="Іспит" Lecturer="Омельчук Л.Л." />
+    <Discipline Name="Бази даних та інформаційні системи" Semester="3" Credits="4" Grade="93" NationalGrade="Відмінно" ExamType="Іспит" Lecturer="Шишацька О.В." />
+  </Student>
+
+  <!-- Вузол 3: 7 атрибутів (додано Specialty) -->
+  <Student Id="ST-103"
+           FullName="Бондаренко Дмитро Сергійович"
+           Faculty="ФКНК"
+           Department="Кафедра прикладної статистики"
+           Course="3"
+           Group="К-31"
+           Specialty="124 Системний аналіз">
+    <Discipline Name="Методи оптимізації" Semester="5" Credits="5" Grade="78" NationalGrade="Добре" ExamType="Іспит" Lecturer="Іваненко П.М." />
+    <Discipline Name="Теорія ймовірностей" Semester="5" Credits="4" Grade="82" NationalGrade="Добре" ExamType="Іспит" Lecturer="Петренко В.Г." />
+    <Discipline Name="Чисельні методи" Semester="5" Credits="4" Grade="74" NationalGrade="Задовільно" ExamType="Залік" Lecturer="Сидоренко О.К." />
+  </Student>
+
+  <!-- Вузол 4: 9 атрибутів (додано Specialty, StudyForm, Scholarship) -->
+  <Student Id="ST-104"
+           FullName="Мельник Софія Андріївна"
+           Faculty="ФІТ"
+           Department="Кафедра інженерії програмного забезпечення"
+           Course="1"
+           Group="ІПЗ-11"
+           Specialty="121 Інженерія програмного забезпечення"
+           StudyForm="Денна"
+           Scholarship="Підвищена">
+    <Discipline Name="Основи програмування" Semester="1" Credits="6" Grade="100" NationalGrade="Відмінно" ExamType="Іспит" Lecturer="Кравець Т.В." />
+    <Discipline Name="Математичний аналіз" Semester="1" Credits="5" Grade="96" NationalGrade="Відмінно" ExamType="Іспит" Lecturer="Лисенко М.О." />
+  </Student>
+
+  <!-- Вузол 5: 7 атрибутів (додано StudyForm) -->
+  <Student Id="ST-105"
+           FullName="Ткаченко Артем Вікторович"
+           Faculty="ФКНК"
+           Department="Кафедра теорії та технології програмування"
+           Course="4"
+           Group="К-42"
+           StudyForm="Заочна">
+    <Discipline Name="Архітектура розподілених систем" Semester="7" Credits="4" Grade="65" NationalGrade="Задовільно" ExamType="Залік" Lecturer="Свистунов А.О." />
+    <Discipline Name="Машинне навчання" Semester="7" Credits="5" Grade="85" NationalGrade="Добре" ExamType="Іспит" Lecturer="Гнатюк С.В." />
+  </Student>
+
+  <!-- Вузол 6: 8 атрибутів (додано Specialty, Scholarship) -->
+  <Student Id="ST-106"
+           FullName="Бойко Вікторія Миколаївна"
+           Faculty="Механіко-математичний"
+           Department="Кафедра алгебри і комп'ютерної математики"
+           Course="3"
+           Group="М-31"
+           Specialty="111 Математика"
+           Scholarship="Немає">
+    <Discipline Name="Функціональний аналіз" Semester="5" Credits="5" Grade="89" NationalGrade="Добре" ExamType="Іспит" Lecturer="Романенко І.І." />
+    <Discipline Name="Комп'ютерна алгебра" Semester="5" Credits="4" Grade="92" NationalGrade="Відмінно" ExamType="Залік" Lecturer="Савчук Н.П." />
+  </Student>
+</StudentPerformanceSystem>
